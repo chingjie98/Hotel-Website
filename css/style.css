@@ -50,6 +50,10 @@ nav{
   position:relative;
 }
 
+.container img{
+  display:block;
+}
+
 .starter-text{
   position:absolute;
   top: 50%;
@@ -78,5 +82,52 @@ nav{
   color:white;
   background-color: #333333;
   padding: 10px;
-
 }
+
+.float-container{
+  display:flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.float-container img{
+  max-width:100%;
+}
+
+.image{
+  flex:1;
+}
+
+.text{
+  flex:1;
+  padding:50px 10px;
+  text-align:center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 750;
+  color:white;
+  background:#333333;
+}
+
+.text span{
+  color:#ffc266;
+}
+
+.text p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#read-more{
+  text-decoration: none;
+  font-size:20px;
+  font-weight:600;
+  background:white;
+  padding:10px;
+  color:black
+}
+
+
+
+
+
