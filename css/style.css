@@ -132,6 +132,22 @@ nav{
 }
 
 
+.icon-container{
+  display:flex;
+}
+
+.location-icon{
+  flex:1;
+}
+
+.food-icon{
+  flex:1;
+}
+
+.dumbbell-icon{
+  flex:1;
+}
+
 
 
 
